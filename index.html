@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Lewis - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="overflow-hidden">
+
+    <!-- YouTube Video Background -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/pwuFTsvJL34?autoplay=1&mute=1&loop=1&playlist=pwuFTsvJL34&controls=0&showinfo=0&modestbranding=1" 
+            frameborder="0" class="video-background" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <!-- Enhanced Header Section -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="">
+                <div>
+                    <h1 class="text-5xl font-bold text-white">Justin Lewis</h1>
+                    <p class="text-10s text-white-300">Computer Science Student</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="home" class="mr-2"></i>
+                        Home
+                    </div>
+                </a>
+                <a href="projects.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="code" class="mr-2"></i>
+                        Projects
+                    </div>
+                </a>
+                <a href="about.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="user" class="mr-2"></i>
+                        About
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="fixed bottom-0 left-0 right-0 bg-black text-white py-4 z-50">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Justin Lewis. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>

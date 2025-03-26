@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Lewis - Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white h-full overflow-auto">
+
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <div>
+                    <h1 class="text-2xl font-bold text-white">Justin Lewis</h1>
+                    <p class="text-sm text-white-300">Computer Science Student</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="home" class="mr-2"></i>
+                        Home
+                    </div>
+                </a>
+                <a href="projects.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="code" class="mr-2"></i>
+                        Projects
+                    </div>
+                </a>
+                <a href="about.html" class="text-white hover:text-purple-300 transition duration-300">
+                    <div class="flex items-center">
+                        <i data-feather="user" class="mr-2"></i>
+                        About
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Content -->
+    <div class="container mx-auto px-4 py-8 mt-20 mb-20 overflow-y-auto">
+        <h2 class="text-3xl text-primary mb-6">My Python Projects:</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- First Project -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <i data-feather="cpu" class="text-primary mr-3"></i>
+                    <h3 class="text-xl text-white">Recursive Hexagon:</h3>
+                </div>
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=2bd8ba3ba1&attid=0.0&permmsgid=msg-f:1827644239853616875&th=195d18c0bc437eeb&view=att&zw&disp=safe" alt="Recursive Hexagon Project" class="w-full h-64 object-cover rounded-lg mb-4">
+                <p class="text-gray-300 mb-4">
+                    <a href="https://trinket.io/python/677472570db4" class="text-primary hover:underline" target="_blank">View Project</a>
+                    In this project, I made a recursive hexagon for an assignment in my intro to Python class. The project demonstrates understanding of recursive functions and geometric drawing in Python.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Python</span>
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Recursion</span>
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Graphics</span>
+                </div>
+            </div>
+
+            <!-- Second Project -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <i data-feather="server" class="text-secondary mr-3"></i>
+                    <h3 class="text-xl text-white">Grade Calculator:</h3>
+                </div>
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=2bd8ba3ba1&attid=0.1&permmsgid=msg-a:r1751105452000233063&th=195d18dbbe710bb5&view=fimg&fur=ip&permmsgid=msg-a:r1751105452000233063&sz=s0-l75-ft&attbid=ANGjdJ-gwrI4pErVhT4r0sftwMfCM6LoUvDbfIDjAvKlF_PN8wSMV3NbQouR3y2RUolwGlxBd7aR0A_sriA2RW4bB4KXLz_KwHPSeACQz6DImfJpjZvtIcAJCT7exUk&disp=emb&realattid=ii_m8pns9820&zw" alt="Grade Calculator Project" class="w-full h-64 object-cover rounded-lg mb-4">
+                <p class="text-gray-300 mb-4">
+                    <a href="https://trinket.io/python/6e4b11042b2b" class="text-primary hover:underline" target="_blank">View Project</a>
+                    A practical grade calculation tool developed for tracking academic performance. This project showcases basic data manipulation and calculation skills in Python.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Python</span>
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Calculation</span>
+                    <span class="tech-tag px-2 py-1 rounded text-xs">Academic Tools</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fixed bottom-0 left-0 right-0 bg-black text-white py-4 z-50">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Justin Lewis. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
